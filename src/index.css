@@ -1,0 +1,176 @@
+body {
+ margin: 0;
+ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ background: #f2f0eb;
+}
+
+code {
+ font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* Sidebar css starts here */
+.sidebar {
+ min-height: 1000px;
+ background-image: linear-gradient(to bottom, #41413c 1%, #2b2b25 100%);
+ max-width: 219px !important;
+}
+.logo {
+ margin: 32px auto;
+}
+.logo img {
+ margin: 0 auto;
+ display: block;
+}
+.navigation {
+ display: flex;
+ justify-content: center;
+}
+.navigation ul {
+ padding: 0;
+ list-style: none;
+}
+.navigation ul li {
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ margin: 42px 0;
+ column-gap: 12px;
+ font-family: Inter;
+ font-size: 16px;
+ font-weight: normal;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: 1.38;
+ letter-spacing: normal;
+ color: #fff;
+}
+/* Sidebar css ends here */
+/* Main Layout css starts here */
+.main-layout {
+ background-color: #f2f0eb;
+ border-radius: 8px 0px 0px 8px;
+ margin-left: -7px !important;
+ padding: 20px 40px;
+}
+/* Main Layout css ends here */
+/* Header css starts here */
+.header {
+ font-family: Inter;
+ font-size: 14px;
+ font-weight: normal;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: 1.14;
+ letter-spacing: normal;
+}
+.login {
+ display: flex;
+ column-gap: 20px;
+ justify-content: flex-end;
+ border-bottom: 1px solid #1e1e1e;
+}
+/* Header css ends here */
+/* Messages css starts here */
+.messages h1 {
+ font-family: Inter;
+ font-size: 32px;
+ font-weight: 300;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: 1.13;
+ letter-spacing: normal;
+}
+.messages-card td {
+ font-family: Inter;
+ font-size: 16px;
+ font-weight: normal;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: 1.38;
+ letter-spacing: normal;
+ color: #1e1e1e;
+}
+.MuiTableCell-head {
+ font-family: Inter;
+ font-size: 16px;
+ font-weight: normal;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: 1.38;
+ letter-spacing: normal;
+ color: #1e1e1e;
+}
+.messages-card .MuiTableCell-root {
+ border-bottom: transparent;
+}
+.messages-card .MuiPaper-elevation1 {
+ box-shadow: none;
+}
+.m-pagination .MuiPagination-ul {
+ justify-content: flex-end;
+}
+.m-pagination .MuiPaginationItem-page.Mui-selected {
+ background-color: #1e1e1e;
+ color: #fff;
+}
+.m-pagination .MuiPaginationItem-root {
+ border-radius: 3px;
+}
+.m-data {
+ display: flex;
+ align-items: center;
+ column-gap: 20px;
+}
+.m-data img {
+ width: 48px;
+ height: 48px;
+ border-radius: 100%;
+ object-fit: cover;
+}
+.m-data h3 {
+ font-family: Inter;
+ font-size: 16px;
+ font-weight: normal;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: 1.38;
+ letter-spacing: normal;
+ color: #1e1e1e;
+ margin: 0;
+}
+.m-data p {
+ font-family: Inter;
+ font-size: 14px;
+ font-weight: normal;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: 1.14;
+ letter-spacing: normal;
+ color: #1e1e1e;
+ margin: 0;
+}
+.m-content p {
+ font-family: Inter;
+ font-size: 16px;
+ font-weight: normal;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: 1.38;
+ letter-spacing: normal;
+ color: #1e1e1e;
+ margin: 0;
+}
+.m-content span {
+ font-family: Inter;
+ font-size: 14px;
+ font-weight: normal;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: 1.14;
+ letter-spacing: normal;
+ color: #1e1e1e;
+}
+/* Messages css ends here */
